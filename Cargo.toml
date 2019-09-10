@@ -1,0 +1,18 @@
+[package]
+name = "ruflex"
+version = "0.1.0"
+authors = ["Kjell W. Kongsvik <kjell.kongsvik@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1"
+
+[lib]
+name = "libruflex"
+path = "src/libruflex.rs"
+
+[[bin]]
+name = "ruflex"
+path = "src/ruflex.rs"
